@@ -1,3 +1,5 @@
+/* Import this file in cypress/support/e2e.js */
+
 Cypress.Commands.add('getByData', (selector) => {
     return cy.get(`[data-cy=${selector}]`)
 })
