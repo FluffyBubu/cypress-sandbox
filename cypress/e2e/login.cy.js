@@ -15,8 +15,10 @@ describe('Login', () => {
         // Visit homepage
         cy.visit('/')
 
-        // Check that the login button is displayed
-        cy.get('[data-cy="login-menu"]').as('loginButton').should('be.visible')
+        // Check login button is displayed
+        cy.getByData('login-menu').as('loginButton').should('be.visible')
+
+        // Check login button text
         cy.get('@loginButton').invoke('text').should('contain', 'Log in')
 
         // Click the login button
@@ -31,7 +33,7 @@ describe('Login', () => {
         // Login with valid input
         cy.login_ui(email, password)
 
-        // Check API call
+        // Check API response
         cy.wait('@login_POST').its('response.statusCode').should('equal', 200)
 
         // Check that the login message is visible
@@ -42,7 +44,7 @@ describe('Login', () => {
         // Login with invalid input
         cy.login_ui(email + 'invalid', password + 'invalid')
 
-        // Check API call
+        // Check API response
         cy.wait('@login_POST').its('response.statusCode').should('equal', 400)
     })
 })

@@ -1,1 +1,6 @@
+#node
 node_modules
+
+#Cypress
+cypress/screenshots
+cypress/videos
