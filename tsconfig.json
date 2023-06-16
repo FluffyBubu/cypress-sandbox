@@ -1,10 +1,18 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": ["es5", "dom"],
+    "module": "es6",
+    "target": "es6",
+    "lib": ["ES2015", "dom"],
     "types": ["cypress", "cypress-real-events", "node"],
     "allowJs": true,
-    "baseUrl": "./"
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "moduleResolution": "node16"
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
   },
   "include": [
     "**/*.ts"
