@@ -29,17 +29,6 @@ describe('Login', () => {
 
     })
 
-    it('should login', () => {
-        // Login with valid input
-        cy.login_ui(email, password)
-
-        // Check API response
-        cy.wait('@login_POST').its('response.statusCode').should('equal', 200)
-
-        // Check that the login message is visible
-        cy.contains('#loginMessage', 'User is logged in').should('be.visible')
-    })
-
     it('should fail to login', () => {
         // Login with invalid input
         cy.login_ui(email + 'invalid', password + 'invalid')

@@ -1,0 +1,10 @@
+name: ci
+on: [push]
+jobs:
+  test:
+    # https://github.com/bahmutov/cypress-workflows
+    uses: bahmutov/cypress-workflows/.github/workflows/split.yml@v2
+    with:
+      nE2E: 2
+      start: npm start
+      wait-on: 'http://localhost:3000'
