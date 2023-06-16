@@ -13,13 +13,13 @@ Those who think this is a "How to use Cypress" tutorial.
 You only need a very basic understanding of Cypress to benefit from this repo, but you will need to know how to at least [install and run Cypress](https://docs.cypress.io/guides/getting-started/installing-cypress) before attempting to delve into design.
 
 ## What is currently covered by this repo
-- Vanilla Cypress | *Strength: quick and easy to get going; Challenge: not always readable*
-- Vanilla Cypress with custom commands | *Strength: easier to read and maintain; Challenge: slightly more complexity *
+- Vanilla Cypress
+- Vanilla Cypress with custom commands
+- Cypress with POM (Page Object Model)
+- Cypress with BDD (Cucumber pre-processor)
+- Cypress with BDD (Gherkin syntax without Cucumber)
 
 ## What's still to come
-- Cypress with POM (Page Object Model) | *Strength: code more readable and better reusability; Challenge: added abstraction layer can make debugging more difficult*
-- Cypress with BDD (Cucumber pre-processor) | *Strength: tests are scenario based and written in natural language that anyone can understand; Challenge: tests are less flexible and maintenance can take a lot of time*
-- Cypress with BDD (Gherkin syntax without Cucumber) | *Strength: keep the simplicity of scenario-based tests with better maintenance; Challenge: tests are less flexible since it's still BDD*
 - Cypress with TypeScript | *Strength: improved safety while coding and assists with documentation for custom commands etc.; Challenge: a bit of a learning curve before seeing real benefits*
 - Cypress with API testing | *Strength: gives you power to access the backend to perform actions without using the UI; Challenge: depending on your project, API documentation might not be readily available*
 - Cypress with CI/CD | *Strength: the ability to provide quick feedback to the team and the ability to run tests outside of your local environment; Challenge: you haven't read [Gleb Bahmutov's](https://glebbahmutov.com/blog/run-and-trigger-github-workflow/) blog on running Cypress testing using Github Actions ^^*
