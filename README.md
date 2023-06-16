@@ -1,3 +1,7 @@
+#### Articles used to create this template
+[Ken Slachta](https://www.thisdot.co/blog/using-cypress-with-cucumber-in-a-react-application/)
+[Filip Hric](https://filiphric.com/cucumber-in-cypress-a-step-by-step-guide)
+
 # Welcome to my Cypress Sandbox!
 This repo is simply designed to showcase different ways that you can model or design your Cypress tests.
 My dream is that it will ultimately be a place where you can contribute to this list as well to give other fellow testers ideas.
