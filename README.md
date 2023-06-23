@@ -20,10 +20,10 @@ You only need a very basic understanding of Cypress to benefit from this repo, b
 - Cypress with BDD (Gherkin syntax without Cucumber)
 - Cypress with CI/CD | *Strength: the ability to provide quick feedback to the team and the ability to run tests outside of your local environment; Challenge: you haven't read [Gleb Bahmutov's](https://glebbahmutov.com/blog/run-and-trigger-github-workflow/) blog on running Cypress testing using Github Actions ^^*
 - Cypress with Parallel testing | *Strength the same perks as CI/CD but with running your tests with multiple machines!; Challenge: you also haven't read [Gleb Bahmutov's](https://glebbahmutov.com/blog/cypress-parallel-free/) blog on running Cypress tests in Parallel for free ^^*
+- Cypress with API testing
 
 ## What's still to come
 - Cypress with TypeScript | *Strength: improved safety while coding and assists with documentation for custom commands etc.; Challenge: a bit of a learning curve before seeing real benefits*
-- Cypress with API testing | *Strength: gives you power to access the backend to perform actions without using the UI; Challenge: depending on your project, API documentation might not be readily available*
 
 ## How do you get started?
 1. Select the branch that interests you.
