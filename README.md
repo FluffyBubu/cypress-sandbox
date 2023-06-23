@@ -22,9 +22,6 @@ You only need a very basic understanding of Cypress to benefit from this repo, b
 - Cypress with Parallel testing | *Strength the same perks as CI/CD but with running your tests with multiple machines!; Challenge: you also haven't read [Gleb Bahmutov's](https://glebbahmutov.com/blog/cypress-parallel-free/) blog on running Cypress tests in Parallel for free ^^*
 - Cypress with API testing
 
-## What's still to come
-- Cypress with TypeScript | *Strength: improved safety while coding and assists with documentation for custom commands etc.; Challenge: a bit of a learning curve before seeing real benefits*
-
 ## How do you get started?
 1. Select the branch that interests you.
 2. Clone or download however many of them you want.
