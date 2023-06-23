@@ -9,12 +9,13 @@
     The UI is used to check that the user is logged in or not.
     
     STRENGTH: 
-    This design can be speed up your tests drastically by using API calls to perform actions 
-    that would otherwise take a long time to perform via UI.
+    This design can be used to speed up your tests drastically by using API calls to perform actions 
+    that would otherwise take a long time to perform via the UI.
+    The API can also be used to create test data to make your tests more robust.
 
     CHALLENGE: 
-    You need to be sure that you understand how to use your API and have placed the correct assertions
-    in order to avoid false positives (flaky tests).
+    You need to be sure that you understand how to use your API and have placed assertions 
+    that help to avoid false positives (flaky tests).
 */
 
 describe('Login', () => {
