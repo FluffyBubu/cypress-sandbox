@@ -31,9 +31,9 @@ Make sure you know [the basics of Cypress](https://docs.cypress.io/guides/gettin
 - [x] Vanilla Cypress with custom commands | *helpful resource [Cypress.io](https://docs.cypress.io/api/cypress-api/custom-commands)*
 - [x] Cypress with POM (Page Object Model) | *inspired by [Gil Tayar - TestAutomationU](https://testautomationu.applitools.com/cypress-tutorial/)*
 - [x] Cypress with BDD (Cucumber pre-processor) *inspired by [Filip Hric](https://filiphric.com/cucumber-in-cypress-a-step-by-step-guide)*
-- [x] Cypress with BDD (Gherkin syntax without Cucumber) | *inspired by [Walmyr Filho](https://walmyr.dev)*
-- [x] Cypress with CI/CD (GitHub Actions) | *inspired by [Gleb Bahmutov](https://glebbahmutov.com)*
-- [x] Cypress with Parallel testing | *inspired by [Gleb Bahmutov](https://glebbahmutov.com)*
+- [x] Cypress with BDD (Gherkin syntax without Cucumber) | *inspired by [Walmyr Filho](https://dev.to/walmyrlimaesilv/using-the-keywords-given-when-then-with-cypress-but-without-cucumber-118p)*
+- [x] Cypress with CI/CD (GitHub Actions) | *inspired by [Gleb Bahmutov](https://glebbahmutov.com/blog/gh-reusable-workflows/)*
+- [x] Cypress with Parallel testing | *inspired by [Gleb Bahmutov](https://glebbahmutov.com/blog/cypress-parallel-free/)*
 - [x] Cypress with API testing | *helpful resource [Filip Hric](https://filiphric.com/cypress-basics-api-testing)*
 
 > #### Filip Hric's README for his trello clone app
