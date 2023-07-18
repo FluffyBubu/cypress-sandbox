@@ -1,6 +1,6 @@
 # Vanilla Cypress with vs without custom commands
 
-### With custom commands 
+### PART 1: With custom commands 
 (`cypress/e2e/login-custom-commands.cy.js`)
 
 #### MODEL/DESIGN
@@ -19,7 +19,7 @@ Try to see which custom commands are used in the tests and identify which ones y
 
 Maybe you would rather keep `cy.wait()` as is without creating a custom command for it (i.e. `cy.waitForApi()`) which essentially has no difference in lines of code or functionality, simply just readability?
 
-### Without custom commands 
+### PART: 2 Without custom commands 
 (`cypress/e2e/login-no-commands.cy.js`)
 
 
