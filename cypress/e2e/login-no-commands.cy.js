@@ -1,26 +1,13 @@
-/* 
-    MODEL/DESIGN
-    Vanilla Cypress design with no custom commands.
-
-    DESCRIPTION
-    This is a simple Login feature with a positive and negative test case using the most basic Cypress design.
-    
-    STRENGTH: 
-    This is a quick and easy way to get going especially if you're still learning the basics of Cypress or simply ensuring that your tests does what's intended.
-
-    CHALLENGE: 
-    A simple test like this may still seem fairly readable and easy to maintain, but when your tests become larger then this isn't a very efficient way to write tests. 
-    Hardcoding values like username, password etc. usually aren't wise.
-*/
-
 describe('Login', () => {
     beforeEach(() => {
+        // Reset the database before each test via the API (check api-testing branch for more info related to interacting with the API)
+        // https://github.com/FluffyBubu/cypress-sandbox/tree/api-testing
         cy.request({
             method: 'POST',
             url: '/api/reset'
         }).its('status').should('equal', 204)
 
-
+        // Create a new user before each test via the API
         cy.request({
             method: 'POST',
             url: '/api/signup',
