@@ -33,6 +33,6 @@ Vanilla Cypress design with no custom commands.
 - A simple test like this may still seem fairly readable and easy to maintain, but when your tests become larger then this isn't a very efficient way to write tests. 
 - Hardcoding values like username, password etc. usually aren't wise as this is firstly not very secure, and isn't maintainable in bigger problems.
 
-#### Learning resource:
+#### Helpful resource:
 - [Cypress.io - custom commands](https://docs.cypress.io/api/cypress-api/custom-commands)
 
