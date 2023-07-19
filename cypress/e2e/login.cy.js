@@ -1,23 +1,3 @@
-/* 
-    MODEL/DESIGN
-    Cypress design with API and UI actions.
-
-    DESCRIPTION
-    This is a simple Login feature with a positive and negative test case using both API and UI actions.
-    The API is used to clean up the database and to create a user.
-    It is also used to perform the login action.
-    The UI is used to check that the user is logged in or not.
-    
-    STRENGTH: 
-    This design can be used to speed up your tests drastically by using API calls to perform actions 
-    that would otherwise take a long time to perform via the UI.
-    The API can also be used to create test data to make your tests more robust.
-
-    CHALLENGE: 
-    You need to be sure that you understand how to use your API and have placed assertions 
-    that help to avoid false positives (flaky tests).
-*/
-
 describe('Login', () => {
     const email = Cypress.env('email')
     const password = Cypress.env('password')
