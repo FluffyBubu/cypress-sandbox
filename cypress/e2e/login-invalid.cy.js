@@ -1,3 +1,6 @@
+// workflow file: .github/workflows/parallel.yml
+// see README.md for details
+
 describe('Login', () => {
     const email = Cypress.env('email')
     const password = Cypress.env('password')
