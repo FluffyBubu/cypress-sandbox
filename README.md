@@ -11,5 +11,5 @@ Cypress design with BDD using Gherkin syntax (Given, When, Then), without Cucumb
 - Even though this alternive BDD design solves the complexity issue of Cucumber, scenario-based tests (like Cucumber) are purposefully designed to have a tight scope in order to test a business requirement. 
 - Tests don't necessarily cover all the edge cases, and you might end up with a lot of scenarios to cover all the edge cases.
 
- #### Learning resource:
+ #### Helpful resource:
 [Walmyr Filho - Using the keywords Given When Then with Cypress but without Cucumber](https://dev.to/walmyrlimaesilv/using-the-keywords-given-when-then-with-cypress-but-without-cucumber-118p)
