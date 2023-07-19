@@ -3,7 +3,9 @@
 
 Firstly, I'm no Cypress expert! 
 
-However, I have learn't a few things that have helped me throughout my test-automation career. This knowledge has come largly from others that generously shared their time and knowledge <sup>mostly for free!!</sup>. This led me to think, how can I also contribute to my community? What did I struggle with the most? What would have helped me earlier on?
+However, I have learn't a few things that have helped me throughout my test-automation career. This knowledge has come largely from others that generously shared their time and knowledge <sup>mostly for free!!</sup>. 
+
+This led me to think, how can I also contribute to my community? What did I struggle with the most? What would have helped me earlier on?
 
 It's hard to give a single answer, - there are quite a few things, but for one, I definitely got tired of a simple login test tutorial with very little real-world context like working with an API, or starting up a local server etc.
 
@@ -11,11 +13,13 @@ It's hard to give a single answer, - there are quite a few things, but for one, 
 #### (Oh, that's my name by the way ^^)
 
 It means, I've once again brought you a L O G I N test!!! 🥳🥳🥳... But with a twist. 
-This repo will provide you with a login test written with different design patterns, strategies, an API test and a server so you can run a Trello clone app (made by Filip Hric) locally on your machine with very little effort and you can try anything without bringing down your company's servers or exposing personal data etc!!
+This repo will provide you with a Cypress playground of sorts containing a login test written with different design patterns, strategies, an API test and a server so you can run a Trello clone app (made by Filip Hric) locally on your machine with very little effort.
 
-In case you don't see the value of this, I've also provided a README in each branch giving you a little description of each design pattern or strategy and some of the pros and cons I've picked up throughout my career (*spoiler alert: they all have pros and cons). And because I've only made a login test (with a bit extra), that gives you the freedom to build even better tests since the app has way more that you can explore.
+In case you don't see the value of this, You can try anything without bringing down your company's servers or exposing personal data etc!! Additionally, I've provided a README in each branch giving you a little description of the design pattern or strategy and some of the pros and cons I've picked up throughout my career *(\*spoiler alert: they all have pros and cons)*. And because I've only made a login test (with a bit extra), that gives you the freedom to build even better tests since the app has way more that you can explore.
 
-Feel free to criticise any of my work or contribute to it (or take). Most of all, I hope this repo sparks your passion for test automation and gives you the the space to try, learn, teach, repeat...
+Feel free to criticise any of my work in this repo or contribute to it (or take). 
+
+Most of all, I hope this repo sparks your passion for test automation and gives you the the space to try, learn, teach, repeat...
 
 #### Important!
 Make sure you know [the basics of Cypress](https://docs.cypress.io/guides/getting-started/installing-cypress) so that you can make the most of this repo.
