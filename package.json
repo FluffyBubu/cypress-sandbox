@@ -5,7 +5,7 @@
   "license": "ISC",
   "scripts": {
     "start": "grunt dev && node index.js",
-    "cy:open": "npx cypres open"
+    "cy:open": "npx cypress open"
   },
   "browser": {
     "vue": "vue/dist/vue.common.js"
